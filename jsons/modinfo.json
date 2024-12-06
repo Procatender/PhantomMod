@@ -1,1 +1,7 @@
-
+{
+    "name": "Persona 5 Nations Mod",
+    "description": "Generated with ChatGPT. Adds four new phantom thieves nations with unique playstyles. ",
+    "version": "1.0",
+    "civAuthor": "Procatender",
+    "minimumUncivVersion": "3.20.0"
+}
