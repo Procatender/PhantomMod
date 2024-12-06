@@ -1,105 +1,203 @@
 [
-  {
-    "name": "Phantom Nation",
-    "leaderName": "Joker",
-    "adjective": ["Phantom"],
-    "startBias": ["Coast", "Hills"],
-    "preferredVictoryType": "Domination",
-    "favoredReligion": "Justice",
-    "uniqueName": "Masks of Rebellion",
-    "uniques": [
-      "Units start with [Stealth] promotion",
-      "[+15%] combat bonus in [Enemy Territory]",
-      "Gain [50] Gold when killing enemy units",
-      "Spies operate [25%] faster"
-    ],
-    "startIntroPart1": "Welcome, Trickster, leader of the Phantom Thieves! You stand as the beacon of rebellion...",
-    "outerColor": [0, 0, 0],
-    "innerColor": [255, 0, 0],
-    "cities": [
-      "Shibuya", "Yongen-Jaya", "Kichijoji", "Akihabara", "Shinjuku",
-      "Ueno", "Ikebukuro", "Nakano", "Odaiba", "Roppongi"
-    ],
-    "spyNames": [
-      "Joker", "Mona", "Queen", "Skull", "Panther",
-      "Fox", "Noir", "Oracle", "Crow", "Sophia"
-    ]
-  },
-  {
-    "name": "Palace Universe",
-    "leaderName": "Kamoshida the Corrupted",
-    "adjective": ["Palace"],
-    "startBias": ["Coast", "Desert"],
-    "preferredVictoryType": "Domination",
-    "favoredReligion": "Greed",
-    "uniqueName": "Bosses of Greed and Fear",
-    "uniques": [
-      "Can buy City-States allied for 5 turns",
-      "[+25%] Gold from all trade routes",
-      "[+300%] Science <when researching [Military] techs>",
-      "Negates all penalties from negative [Happiness]",
-      "[+15 Gold] per [Era] passed"
-    ],
-    "startIntroPart1": "Welcome, corrupted ruler of the Palace Universe...",
-    "outerColor": [180, 90, 30],
-    "innerColor": [250, 200, 50],
-    "cities": [
-      "Castle of Lust", "Museum of Vanity", "Bank of Gluttony", "Pyramid of Wrath",
-      "Casino of Greed", "Cruise of Pride", "Spaceport of Despair"
-    ],
-    "spyNames": [
-      "Kamoshida", "Madarame", "Kaneshiro", "Okumura", "Shido", "Yaldabaoth"
-    ]
-  },
-  {
-    "name": "Ryuji's Haven",
-    "leaderName": "Ryuji Sakamoto",
-    "adjective": ["Haven"],
-    "startBias": ["Plains", "Hills"],
-    "preferredVictoryType": "Domination",
-    "uniqueName": "Relentless Fury",
-    "uniques": [
-      "Entire map revealed at game start",
-      "All nations and City-States start with [-690] reputation",
-      "[+300%] Science <when researching [Military] technologies>",
-      "[+30% Strength] <vs [Cities]>",
-      "[+20% Production] <for [Land] units>"
-    ],
-    "startIntroPart1": "Welcome, Ryuji Sakamoto, the loud and relentless warrior...",
-    "outerColor": [150, 50, 50],
-    "innerColor": [220, 100, 50],
-    "cities": [
-      "Haven of Rage", "Stormbreak Fortress", "Thunder Plains", "Crimson Outpost",
-      "Ironclad Hold", "Fury Spire", "Scarlet Bastion", "Shadow Gorge"
-    ],
-    "spyNames": [
-      "Ryuji", "Captain Kidd", "Tempest Raider", "Skull"
-    ]
-  },
-  {
-    "name": "Morgana's Empire",
-    "leaderName": "Morgana",
-    "adjective": ["Morgana's"],
-    "startBias": ["Grassland", "River"],
-    "preferredVictoryType": "Cultural",
-    "uniqueName": "Guiding Paws of Progress",
-    "uniques": [
-      "[+33% Culture] and [+33% Science] <when [Happiness] is positive>",
-      "[+20% Great Person Generation] in the [Capital]",
-      "[+20% Production] <when building [Wonders]>",
-      "All cities receive a free [Monument] upon founding",
-      "[-30% Combat Strength] for all units",
-      "[+15% Strength] <when defending [Cities]>"
-    ],
-    "startIntroPart1": "Greetings, Morgana, benevolent ruler of a burgeoning empire...",
-    "outerColor": [100, 149, 237],
-    "innerColor": [255, 255, 204],
-    "cities": [
-      "Shining Spire", "Golden Grove", "Silver Springs", "Harmony Fields",
-      "Crystal Lake", "Azure Sanctuary", "Radiant Haven", "Moonlit Vale"
-    ],
-    "spyNames": [
-      "Morgana", "Luna", "Eclipse", "Purrfection", "Moonshadow", "Starlight"
-    ]
-  }
+    {
+        "name": "Phantom Nation",
+        "leaderName": "Joker",
+        "adjective": [
+            "Phantom"
+        ],
+        "startBias": [
+            "Coast",
+            "Hills"
+        ],
+        "preferredVictoryType": "Domination",
+        "favoredReligion": "Justice",
+        "uniqueName": "Masks of Rebellion",
+        "uniques": [
+            "Units start with [Stealth] promotion",
+            "[+15%] combat bonus in [Enemy Territory]",
+            "Gain [50] Gold when killing enemy units",
+            "Spies operate [25%] faster"
+        ],
+        "startIntroPart1": "Welcome, Trickster, leader of the Phantom Thieves! You stand as the beacon of rebellion...",
+        "outerColor": [
+            0,
+            0,
+            0
+        ],
+        "innerColor": [
+            255,
+            0,
+            0
+        ],
+        "cities": [
+            "Shibuya",
+            "Yongen-Jaya",
+            "Kichijoji",
+            "Akihabara",
+            "Shinjuku",
+            "Ueno",
+            "Ikebukuro",
+            "Nakano",
+            "Odaiba",
+            "Roppongi"
+        ],
+        "spyNames": [
+            "Joker",
+            "Mona",
+            "Queen",
+            "Skull",
+            "Panther",
+            "Fox",
+            "Noir",
+            "Oracle",
+            "Crow",
+            "Sophia"
+        ]
+    },
+    {
+        "name": "Palace Universe",
+        "leaderName": "Kamoshida the Corrupted",
+        "adjective": [
+            "Palace"
+        ],
+        "startBias": [
+            "Coast",
+            "Desert"
+        ],
+        "preferredVictoryType": "Domination",
+        "favoredReligion": "Greed",
+        "uniqueName": "Bosses of Greed and Fear",
+        "uniques": [
+            "Can buy City-States allied for 5 turns",
+            "[+25%] Gold from all trade routes",
+            "[+300%] Science <when researching [Military] techs>",
+            "Negates all penalties from negative [Happiness]",
+            "[+15 Gold] per [Era] passed"
+        ],
+        "startIntroPart1": "Welcome, corrupted ruler of the Palace Universe...",
+        "outerColor": [
+            180,
+            90,
+            30
+        ],
+        "innerColor": [
+            250,
+            200,
+            50
+        ],
+        "cities": [
+            "Castle of Lust",
+            "Museum of Vanity",
+            "Bank of Gluttony",
+            "Pyramid of Wrath",
+            "Casino of Greed",
+            "Cruise of Pride",
+            "Spaceport of Despair"
+        ],
+        "spyNames": [
+            "Kamoshida",
+            "Madarame",
+            "Kaneshiro",
+            "Okumura",
+            "Shido",
+            "Yaldabaoth"
+        ]
+    },
+    {
+        "name": "Ryuji's Haven",
+        "leaderName": "Ryuji Sakamoto",
+        "adjective": [
+            "Haven"
+        ],
+        "startBias": [
+            "Plains",
+            "Hills"
+        ],
+        "preferredVictoryType": "Domination",
+        "uniqueName": "Relentless Fury",
+        "uniques": [
+            "Entire map revealed at game start",
+            "All nations and City-States start with [-690] reputation",
+            "[+300%] Science <when researching [Military] technologies>",
+            "[+30% Strength] <vs [Cities]>",
+            "[+20% Production] <for [Land] units>"
+        ],
+        "startIntroPart1": "Welcome, Ryuji Sakamoto, the loud and relentless warrior...",
+        "outerColor": [
+            150,
+            50,
+            50
+        ],
+        "innerColor": [
+            220,
+            100,
+            50
+        ],
+        "cities": [
+            "Haven of Rage",
+            "Stormbreak Fortress",
+            "Thunder Plains",
+            "Crimson Outpost",
+            "Ironclad Hold",
+            "Fury Spire",
+            "Scarlet Bastion",
+            "Shadow Gorge"
+        ],
+        "spyNames": [
+            "Ryuji",
+            "Captain Kidd",
+            "Tempest Raider",
+            "Skull"
+        ]
+    },
+    {
+        "name": "Morgana's Empire",
+        "leaderName": "Morgana",
+        "adjective": [
+            "Morgana's"
+        ],
+        "startBias": [
+            "Grassland",
+            "River"
+        ],
+        "preferredVictoryType": "Cultural",
+        "uniqueName": "Guiding Paws of Progress",
+        "uniques": [
+            "[+33% Culture] and [+33% Science] <when [Happiness] is positive>",
+            "[+20% Great Person Generation] in the [Capital]",
+            "[+20% Production] <when building [Wonders]>",
+            "All cities receive a free [Monument] upon founding",
+            "[-30% Combat Strength] for all units",
+            "[+15% Strength] <when defending [Cities]>"
+        ],
+        "startIntroPart1": "Greetings, Morgana, benevolent ruler of a burgeoning empire...",
+        "outerColor": [
+            100,
+            149,
+            237
+        ],
+        "innerColor": [
+            255,
+            255,
+            204
+        ],
+        "cities": [
+            "Shining Spire",
+            "Golden Grove",
+            "Silver Springs",
+            "Harmony Fields",
+            "Crystal Lake",
+            "Azure Sanctuary",
+            "Radiant Haven",
+            "Moonlit Vale"
+        ],
+        "spyNames": [
+            "Morgana",
+            "Luna",
+            "Eclipse",
+            "Purrfection",
+            "Moonshadow",
+            "Starlight"
+        ]
+    }
 ]
