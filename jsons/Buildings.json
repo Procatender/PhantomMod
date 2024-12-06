@@ -1,25 +1,120 @@
 [
-	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+    {
+        "name": "Temple of Solomon",
+        "replaces": "Temple",
+        "uniqueTo": "Phantom Nation",
+        "faith": 5,
+        "culture": 3,
+        "gold": 2,
+        "requiredTech": "Philosophy",
+        "uniques": [
+            "Doubles Great Prophet points in this city",
+            "[+1 Gold] per [Incense] resource",
+            "Grants a free Social Policy upon construction"
+        ]
+    },
+    {
+        "name": "Metaverse Gate",
+        "replaces": "Monument",
+        "uniqueTo": "Phantom Nation",
+        "culture": 2,
+        "gold": 1,
+        "faith": 1,
+        "requiredTech": "Pottery",
+        "uniques": [
+            "Grants an additional [Spy] upon construction",
+            "[+25% experience] gained from [Espionage] missions"
+        ]
+    },
+    {
+        "name": "Golden Vault",
+        "replaces": "Market",
+        "uniqueTo": "Palace Universe",
+        "gold": 7,
+        "culture": 2,
+        "cost": 150,
+        "requiredTech": "Currency",
+        "uniques": [
+            "[+25% Gold] from trade routes in this city",
+            "Provides [+1 Happiness] per 10 Gold generated per turn in this city"
+        ]
+    },
+    {
+        "name": "Treasury of Avarice",
+        "replaces": "Bank",
+        "uniqueTo": "Palace Universe",
+        "gold": 10,
+        "culture": 2,
+        "cost": 250,
+        "requiredTech": "Banking",
+        "uniques": [
+            "[+1 Gold] for every citizen in this city",
+            "Provides a free [Spy] upon construction",
+            "Doubles the Gold earned from [Pillaging]"
+        ]
+    },
+    {
+        "name": "Warrior's Arena",
+        "replaces": "Barracks",
+        "uniqueTo": "Ryuji's Haven",
+        "cost": 90,
+        "requiredTech": "Bronze Working",
+        "uniques": [
+            "Units built in this city gain [+15% Strength]",
+            "[+1 Culture] per land unit stationed in this city",
+            "Reduces [Unit Maintenance] by [-10%]"
+        ]
+    },
+    {
+        "name": "Forge of Wrath",
+        "replaces": "Workshop",
+        "uniqueTo": "Ryuji's Haven",
+        "production": 5,
+        "cost": 180,
+        "requiredTech": "Metal Casting",
+        "uniques": [
+            "[+25% Production] <for [Land] units>",
+            "[+1 Gold] per unit garrisoned in this city",
+            "[+10 XP] for units trained in this city"
+        ]
+    },
+    {
+        "name": "Temple of Thunder",
+        "replaces": "Military Academy",
+        "uniqueTo": "Ryuji's Haven",
+        "cost": 300,
+        "requiredTech": "Military Science",
+        "uniques": [
+            "Units trained in this city gain [+20% Strength]",
+            "[+2 Production] per [Military] unit in the empire",
+            "Increases [Golden Age Points] earned from combat"
+        ]
+    },
+    {
+        "name": "Arcane Academy",
+        "replaces": "University",
+        "uniqueTo": "Morgana's Empire",
+        "science": 4,
+        "culture": 2,
+        "cost": 200,
+        "requiredTech": "Education",
+        "uniques": [
+            "[+1 Science] for every [3] citizens in the city",
+            "[+2 Great Scientist Points] per turn",
+            "Reduces [Unhappiness] by [-1]"
+        ]
+    },
+    {
+        "name": "Gilded Bazaar",
+        "replaces": "Market",
+        "uniqueTo": "Morgana's Empire",
+        "gold": 3,
+        "culture": 1,
+        "cost": 150,
+        "requiredTech": "Currency",
+        "uniques": [
+            "[+1 Gold] for every [5] citizens in this city",
+            "[+1 Culture] for every [Luxury Resource] worked by this city"
+        ]
+    }
 ]
