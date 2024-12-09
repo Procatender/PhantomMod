@@ -1,203 +1,136 @@
 [
-    {
-        "name": "Phantom Nation",
-        "leaderName": "Joker",
-        "adjective": [
-            "Phantom"
-        ],
-        "startBias": [
-            "Coast",
-            "Hills"
-        ],
-        "preferredVictoryType": "Domination",
-        "favoredReligion": "Justice",
-        "uniqueName": "Masks of Rebellion",
-        "uniques": [
-            "Units start with [Stealth] promotion",
-            "[+15%] combat bonus in [Enemy Territory]",
-            "Gain [50] Gold when killing enemy units",
-            "Spies operate [25%] faster"
-        ],
-        "startIntroPart1": "Welcome, Trickster, leader of the Phantom Thieves! You stand as the beacon of rebellion...",
-        "outerColor": [
-            0,
-            0,
-            0
-        ],
-        "innerColor": [
-            255,
-            0,
-            0
-        ],
-        "cities": [
-            "Shibuya",
-            "Yongen-Jaya",
-            "Kichijoji",
-            "Akihabara",
-            "Shinjuku",
-            "Ueno",
-            "Ikebukuro",
-            "Nakano",
-            "Odaiba",
-            "Roppongi"
-        ],
-        "spyNames": [
-            "Joker",
-            "Mona",
-            "Queen",
-            "Skull",
-            "Panther",
-            "Fox",
-            "Noir",
-            "Oracle",
-            "Crow",
-            "Sophia"
-        ]
-    },
-    {
-        "name": "Palace Universe",
-        "leaderName": "Kamoshida the Corrupted",
-        "adjective": [
-            "Palace"
-        ],
-        "startBias": [
-            "Coast",
-            "Desert"
-        ],
-        "preferredVictoryType": "Domination",
-        "favoredReligion": "Greed",
-        "uniqueName": "Bosses of Greed and Fear",
-        "uniques": [
-            "Can buy City-States allied for 5 turns",
-            "[+25%] Gold from all trade routes",
-            "[+300%] Science <when researching [Military] techs>",
-            "Negates all penalties from negative [Happiness]",
-            "[+15 Gold] per [Era] passed"
-        ],
-        "startIntroPart1": "Welcome, corrupted ruler of the Palace Universe...",
-        "outerColor": [
-            180,
-            90,
-            30
-        ],
-        "innerColor": [
-            250,
-            200,
-            50
-        ],
-        "cities": [
-            "Castle of Lust",
-            "Museum of Vanity",
-            "Bank of Gluttony",
-            "Pyramid of Wrath",
-            "Casino of Greed",
-            "Cruise of Pride",
-            "Spaceport of Despair"
-        ],
-        "spyNames": [
-            "Kamoshida",
-            "Madarame",
-            "Kaneshiro",
-            "Okumura",
-            "Shido",
-            "Yaldabaoth"
-        ]
-    },
-    {
-        "name": "Ryuji's Haven",
-        "leaderName": "Ryuji Sakamoto",
-        "adjective": [
-            "Haven"
-        ],
-        "startBias": [
-            "Plains",
-            "Hills"
-        ],
-        "preferredVictoryType": "Domination",
-        "uniqueName": "Relentless Fury",
-        "uniques": [
-            "Entire map revealed at game start",
-            "All nations and City-States start with [-690] reputation",
-            "[+300%] Science <when researching [Military] technologies>",
-            "[+30% Strength] <vs [Cities]>",
-            "[+20% Production] <for [Land] units>"
-        ],
-        "startIntroPart1": "Welcome, Ryuji Sakamoto, the loud and relentless warrior...",
-        "outerColor": [
-            150,
-            50,
-            50
-        ],
-        "innerColor": [
-            220,
-            100,
-            50
-        ],
-        "cities": [
-            "Haven of Rage",
-            "Stormbreak Fortress",
-            "Thunder Plains",
-            "Crimson Outpost",
-            "Ironclad Hold",
-            "Fury Spire",
-            "Scarlet Bastion",
-            "Shadow Gorge"
-        ],
-        "spyNames": [
-            "Ryuji",
-            "Captain Kidd",
-            "Tempest Raider",
-            "Skull"
-        ]
-    },
-    {
-        "name": "Morgana's Empire",
-        "leaderName": "Morgana",
-        "adjective": [
-            "Morgana's"
-        ],
-        "startBias": [
-            "Grassland",
-            "River"
-        ],
-        "preferredVictoryType": "Cultural",
-        "uniqueName": "Guiding Paws of Progress",
-        "uniques": [
-            "[+33% Culture] and [+33% Science] <when [Happiness] is positive>",
-            "[+20% Great Person Generation] in the [Capital]",
-            "[+20% Production] <when building [Wonders]>",
-            "All cities receive a free [Monument] upon founding",
-            "[-30% Combat Strength] for all units",
-            "[+15% Strength] <when defending [Cities]>"
-        ],
-        "startIntroPart1": "Greetings, Morgana, benevolent ruler of a burgeoning empire...",
-        "outerColor": [
-            100,
-            149,
-            237
-        ],
-        "innerColor": [
-            255,
-            255,
-            204
-        ],
-        "cities": [
-            "Shining Spire",
-            "Golden Grove",
-            "Silver Springs",
-            "Harmony Fields",
-            "Crystal Lake",
-            "Azure Sanctuary",
-            "Radiant Haven",
-            "Moonlit Vale"
-        ],
-        "spyNames": [
-            "Morgana",
-            "Luna",
-            "Eclipse",
-            "Purrfection",
-            "Moonshadow",
-            "Starlight"
-        ]
-    }
+  {
+    "name": "Phantom Nation",
+    "leaderName": "Joker",
+    "adjective": ["Phantom"],
+    "startBias": ["Coast", "Hills"],
+    "preferredVictoryType": "Domination",
+    "favoredReligion": "Justice",
+    "uniqueName": "Masks of Rebellion",
+    "uniques": [
+      "Units start with Stealth promotion",
+      "+15% Strength in enemy territory",
+      "Earn 50 Gold when killing an enemy unit",
+      "Spies operate 25% faster"
+    ],
+    "startIntroPart1": "Welcome, Trickster, leader of the Phantom Thieves! You stand as the beacon of rebellion in a corrupt world...",
+    "startIntroPart2": "Will your cunning and charisma build a world of justice, or will the chains of power drag you down?",
+    "declaringWar": "Justice cannot stand by while corruption runs free!",
+    "attacked": "Your actions reveal your true nature. The Phantom Thieves will stop you.",
+    "defeated": "It seems... our rebellion ends here. But the fight for justice will never stop.",
+    "introduction": "I am Joker, leader of the Phantom Nation. Let’s hope you’re one of the good guys.",
+    "neutralHello": "So, what’s your deal? Friend or foe?",
+    "hateHello": "We’ve got our eye on you. Don’t try anything funny.",
+    "tradeRequest": "Make it worth our while, and we’ll see.",
+    "outerColor": [0, 0, 0],
+    "innerColor": [255, 0, 0],
+    "cities": [
+      "Shibuya", "Yongen-Jaya", "Kichijoji", "Akihabara", "Shinjuku",
+      "Ueno", "Ikebukuro", "Nakano", "Odaiba", "Roppongi"
+    ],
+    "spyNames": [
+      "Joker", "Mona", "Queen", "Skull", "Panther", "Fox", "Noir", "Oracle", "Crow", "Sophia"
+    ]
+  },
+  {
+    "name": "Palace Universe",
+    "leaderName": "Kamoshida the Corrupted",
+    "adjective": ["Palace"],
+    "startBias": ["Desert", "Plains"],
+    "preferredVictoryType": "Domination",
+    "favoredReligion": "Greed",
+    "uniqueName": "Bosses of Greed and Fear",
+    "uniques": [
+      "Can buy City-States allied for 5 turns",
+      "+25% Gold from trade routes",
+      "+300% Science when researching military technologies",
+      "Negates penalties from negative Happiness",
+      "+15 Gold per era passed"
+    ],
+    "startIntroPart1": "Welcome, corrupted ruler of the Palace Universe. Greed and fear are your tools to dominate the world...",
+    "startIntroPart2": "Will you hoard wealth and power, or will the rebellion of the oppressed shatter your empire?",
+    "declaringWar": "Fools. You dare to challenge my wealth and power?",
+    "attacked": "Your insolence will not go unpunished.",
+    "defeated": "Even in ruin, my legacy of greed will endure.",
+    "introduction": "I am Kamoshida. Bow before the Palace Universe or prepare to be crushed.",
+    "neutralHello": "Welcome. Let’s discuss terms—if you have something to offer.",
+    "hateHello": "You’re a fool to think you can defy me.",
+    "tradeRequest": "This deal better be worth my time.",
+    "outerColor": [180, 90, 30],
+    "innerColor": [250, 200, 50],
+    "cities": [
+      "Castle of Lust", "Museum of Vanity", "Bank of Gluttony", "Pyramid of Wrath",
+      "Casino of Greed", "Cruise of Pride", "Spaceport of Despair"
+    ],
+    "spyNames": [
+      "Kamoshida", "Madarame", "Kaneshiro", "Okumura", "Shido", "Yaldabaoth"
+    ]
+  },
+  {
+    "name": "Ryuji's Haven",
+    "leaderName": "Ryuji Sakamoto",
+    "adjective": ["Haven"],
+    "startBias": ["Plains", "Hills"],
+    "preferredVictoryType": "Domination",
+    "uniqueName": "Relentless Fury",
+    "uniques": [
+      "Entire map revealed at game start",
+      "All nations and City-States start with -690 reputation",
+      "+300% Science when researching military technologies",
+      "+30% Strength against cities",
+      "+20% Production for land units"
+    ],
+    "startIntroPart1": "Yo, I’m Ryuji. Strong, loud, and always ready for a fight! My Haven thrives on action and doesn’t wait around for anyone...",
+    "startIntroPart2": "Will you stand beside me or get run over by the storm?",
+    "declaringWar": "Alright, let’s get this party started!",
+    "attacked": "You’ve messed with the wrong Haven!",
+    "defeated": "Damn it... Guess I wasn’t strong enough.",
+    "introduction": "I’m Ryuji. Let’s hope you’re not here to waste my time.",
+    "neutralHello": "What’s up? Got something to say?",
+    "hateHello": "Tread carefully. I don’t trust you.",
+    "tradeRequest": "Let’s get this done quickly. Time’s ticking.",
+    "outerColor": [150, 50, 50],
+    "innerColor": [220, 100, 50],
+    "cities": [
+      "Haven of Rage", "Stormbreak Fortress", "Thunder Plains", "Crimson Outpost",
+      "Ironclad Hold", "Fury Spire", "Scarlet Bastion", "Shadow Gorge"
+    ],
+    "spyNames": [
+      "Ryuji", "Captain Kidd", "Tempest Raider", "Skull"
+    ]
+  },
+  {
+    "name": "Morgana's Empire",
+    "leaderName": "Morgana",
+    "adjective": ["Morgana's"],
+    "startBias": ["Grassland", "River"],
+    "preferredVictoryType": "Cultural",
+    "uniqueName": "Guiding Paws of Progress",
+    "uniques": [
+      "+33% Culture and Science when Happiness is positive",
+      "+20% Great Person Generation in the Capital",
+      "+20% Production when building Wonders",
+      "All cities receive a free Monument upon founding",
+      "-30% Strength for all units",
+      "+15% Strength when defending cities"
+    ],
+    "startIntroPart1": "Hey, I’m Morgana! Smart, charming, and way better at leading than anyone else! My empire is built on brains, not brawn...",
+    "startIntroPart2": "Will you follow my lead to a brighter future, or will you stand in the way of progress?",
+    "declaringWar": "Ugh, don’t make me fight you. You’ll regret it!",
+    "attacked": "You’ve got a lot of nerve attacking me.",
+    "defeated": "No way... This can’t be happening! I’ll come back stronger!",
+    "introduction": "Greetings! I’m Morgana, the brilliant ruler of this empire. Shall we work together for progress?",
+    "neutralHello": "Let’s hear what you have to say. Don’t waste my time.",
+    "hateHello": "You’re skating on thin ice here.",
+    "tradeRequest": "Alright, let’s make a deal—but it better be worth my while.",
+    "outerColor": [100, 149, 237],
+    "innerColor": [255, 255, 204],
+    "cities": [
+      "Shining Spire", "Golden Grove", "Silver Springs", "Harmony Fields",
+      "Crystal Lake", "Azure Sanctuary", "Radiant Haven", "Moonlit Vale"
+    ],
+    "spyNames": [
+      "Morgana", "Luna", "Eclipse", "Purrfection", "Moonshadow", "Starlight"
+    ]
+  }
 ]
