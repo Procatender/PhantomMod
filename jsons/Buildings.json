@@ -28,6 +28,21 @@
     ]
   },
   {
+    "name": "LeBlanc Attic",
+    "cost": 300,
+    "uniqueTo": "Phantom Nation",
+    "culture": 8,
+    "production": 4,
+    "requiredTech": "Drama and Poetry",
+    "requiredBuildings": ["Metaverse Gate"],
+    "isNationalWonder": true,
+    "uniques": [
+      "+15% Strength for all units",
+      "Grants a free Social Policy",
+      "Provides +4 Culture for every Spy owned"
+    ]
+  },
+  {
     "name": "Golden Vault",
     "replaces": "Market",
     "uniqueTo": "Palace Universe",
@@ -68,6 +83,36 @@
     ]
   },
   {
+    "name": "Vault of Desire",
+    "cost": 450,
+    "uniqueTo": "Palace Universe",
+    "gold": 12,
+    "culture": 4,
+    "requiredTech": "Printing Press",
+    "requiredBuildings": ["Hall of Excess"],
+    "isNationalWonder": true,
+    "uniques": [
+      "Provides +2 Happiness for every Luxury Resource in the empire",
+      "Converts Culture in this city into Gold at 50% rate",
+      "Grants a free Great Merchant upon completion"
+    ]
+  },
+  {
+    "name": "Crown of Greed",
+    "cost": 400,
+    "uniqueTo": "Palace Universe",
+    "gold": 15,
+    "culture": 5,
+    "requiredTech": "Banking",
+    "requiredBuildings": ["Treasury of Avarice"],
+    "isNationalWonder": true,
+    "uniques": [
+      "Provides +1 Gold for every Luxury Resource in the empire",
+      "+50% Gold from trade routes originating in the capital",
+      "Grants a free Golden Age upon completion"
+    ]
+  },
+  {
     "name": "Warrior's Arena",
     "replaces": "Barracks",
     "uniqueTo": "Ryuji's Haven",
@@ -105,6 +150,48 @@
     ]
   },
   {
+    "name": "Hall of Conquest",
+    "cost": 300,
+    "uniqueTo": "Ryuji's Haven",
+    "culture": 5,
+    "requiredTech": "Construction",
+    "requiredBuildings": ["Warrior's Arena"],
+    "isNationalWonder": true,
+    "uniques": [
+      "+2 Culture for every city captured",
+      "Provides Honor policy bonuses to all cities",
+      "Grants a free Great General upon completion"
+    ]
+  },
+  {
+    "name": "Citadel of Fury",
+    "cost": 500,
+    "uniqueTo": "Ryuji's Haven",
+    "production": 8,
+    "requiredTech": "Engineering",
+    "requiredBuildings": ["Forge of Wrath"],
+    "isNationalWonder": true,
+    "uniques": [
+      "+15% Strength for all units when fighting in enemy territory",
+      "Provides +1 Gold for every city captured",
+      "Doubles the movement speed of Great Generals"
+    ]
+  },
+  {
+    "name": "Eternal Fortress",
+    "cost": 800,
+    "uniqueTo": "Ryuji's Haven",
+    "production": 10,
+    "requiredTech": "Replaceable Parts",
+    "requiredBuildings": ["Temple of Thunder"],
+    "isNationalWonder": true,
+    "uniques": [
+      "Provides +25% Strength for all units",
+      "Provides +2 Production for every city captured",
+      "Halves military unit maintenance costs across the empire"
+    ]
+  },
+  {
     "name": "Arcane Academy",
     "replaces": "University",
     "uniqueTo": "Morgana's Empire",
@@ -129,6 +216,34 @@
     "uniques": [
       "+1 Gold for every 5 citizens in this city",
       "+1 Culture for every Luxury Resource worked by this city"
+    ]
+  },
+  {
+    "name": "Sanctuary of Serenity",
+    "cost": 300,
+    "uniqueTo": "Morgana's Empire",
+    "culture": 8,
+    "requiredTech": "Drama and Poetry",
+    "requiredBuildings": ["Monument"],
+    "isNationalWonder": true,
+    "uniques": [
+      "+2 Culture for every city in the empire",
+      "Provides +1 Happiness for every Wonder in the empire",
+      "Grants a free Great Artist upon completion"
+    ]
+  },
+  {
+    "name": "Hall of Enlightenment",
+    "cost": 450,
+    "uniqueTo": "Morgana's Empire",
+    "science": 10,
+    "requiredTech": "Printing Press",
+    "requiredBuildings": ["Arcane Academy"],
+    "isNationalWonder": true,
+    "uniques": [
+      "+2 Science for every Wonder in the empire",
+      "+10% Science when Happiness is positive",
+      "Grants a free Great Scientist upon completion"
     ]
   }
 ]
