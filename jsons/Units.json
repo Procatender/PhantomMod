@@ -1,81 +1,94 @@
 [
-    {
-        "name": "Guardian Prowler",
-        "unitType": "Melee",
-        "uniqueTo": "Morgana's Empire",
-        "strength": 16,
-        "cost": 75,
-        "requiredTech": "Bronze Working",
-        "uniques": [
-            "[+25% Strength] <when defending cities>",
-            "[+20% Strength] <vs [Barbarians]>",
-            "Earns [Culture] equal to [10% of damage dealt] <to [Barbarians]>"
-        ]
-    },
-    {
-        "name": "Harmony Sentinel",
-        "unitType": "Ranged",
-        "uniqueTo": "Morgana's Empire",
-        "rangedStrength": 25,
-        "cost": 150,
-        "requiredTech": "Machinery",
-        "uniques": [
-            "[+25% Strength] <when defending cities>",
-            "Ignores terrain penalties",
-            "[+15% Strength] <vs [Barbarians]>"
-        ]
-    },
-    {
-        "name": "Ethereal Guardian",
-        "unitType": "Special",
-        "uniqueTo": "Morgana's Empire",
-        "strength": 50,
-        "cost": 350,
-        "requiredTech": "Replaceable Parts",
-        "uniques": [
-            "[+30% Strength] <when defending cities>",
-            "[+25% Strength] <vs [Barbarians]>",
-            "Grants adjacent units [+10% Strength] <when fighting within 3 tiles of the capital>"
-        ]
-    },
-    {
-        "name": "Skull Vanguard",
-        "unitType": "Melee",
-        "uniqueTo": "Ryuji's Haven",
-        "strength": 20,
-        "cost": 80,
-        "requiredTech": "Bronze Working",
-        "uniques": [
-            "[+25% Strength] <when attacking>",
-            "No movement cost to pillage",
-            "[+1 Viewing Radius]"
-        ]
-    },
-    {
-        "name": "Thunder Raiders",
-        "unitType": "Mounted",
-        "uniqueTo": "Ryuji's Haven",
-        "strength": 30,
-        "cost": 150,
-        "requiredTech": "Chivalry",
-        "uniques": [
-            "[+30% Strength] <when attacking cities>",
-            "Heals [15 HP] after every kill",
-            "Ignores Zone of Control"
-        ]
-    },
-    {
-        "name": "Iron Juggernaut",
-        "unitType": "Siege",
-        "uniqueTo": "Ryuji's Haven",
-        "strength": 70,
-        "rangedStrength": 55,
-        "cost": 300,
-        "requiredTech": "Dynamite",
-        "uniques": [
-            "Double damage <vs cities>",
-            "[+50% Strength] <when defending>",
-            "Cannot be captured when defeated"
+  {
+    "name": "Guardian Prowler",
+    "unitType": "Melee",
+    "uniqueTo": "Morgana's Empire",
+    "strength": 16,
+    "movement": 2,
+    "cost": 75,
+    "requiredTech": "Bronze Working",
+    "upgradesTo": "Pikeman",
+    "uniques": [
+      "+25% Strength when defending cities",
+      "+20% Strength vs Barbarians",
+      "Gains 10 Culture for killing a Barbarian"
+    ]
+  },
+  {
+    "name": "Harmony Sentinel",
+    "unitType": "Ranged",
+    "uniqueTo": "Morgana's Empire",
+    "rangedStrength": 25,
+    "strength": 18,
+    "movement": 2,
+    "cost": 150,
+    "requiredTech": "Machinery",
+    "upgradesTo": "Field Cannon",
+    "uniques": [
+      "+25% Strength when defending cities",
+      "Ignores terrain movement penalties",
+      "+15% Strength vs Barbarians"
+    ]
+  },
+  {
+    "name": "Ethereal Guardian",
+    "unitType": "Special",
+    "uniqueTo": "Morgana's Empire",
+    "strength": 50,
+    "movement": 2,
+    "cost": 350,
+    "requiredTech": "Replaceable Parts",
+    "upgradesTo": "Modern Armor",
+    "uniques": [
+      "+30% Strength when defending cities",
+      "+25% Strength vs Barbarians",
+      "Grants adjacent units +10% Strength within 3 tiles of the capital"
+    ]
+  },
+  {
+    "name": "Skull Vanguard",
+    "unitType": "Melee",
+    "uniqueTo": "Ryuji's Haven",
+    "strength": 20,
+    "movement": 2,
+    "cost": 80,
+    "requiredTech": "Bronze Working",
+    "upgradesTo": "Pikeman",
+    "uniques": [
+      "+25% Strength when attacking",
+      "Pillaging costs no movement",
+      "+1 Vision range"
+    ]
+  },
+  {
+    "name": "Thunder Raiders",
+    "unitType": "Mounted",
+    "uniqueTo": "Ryuji's Haven",
+    "strength": 30,
+    "movement": 4,
+    "cost": 150,
+    "requiredTech": "Chivalry",
+    "upgradesTo": "Cavalry",
+    "uniques": [
+      "+30% Strength when attacking cities",
+      "Heals 15 HP after killing a unit",
+      "Ignores Zone of Control"
+    ]
+  },
+  {
+    "name": "Iron Juggernaut",
+    "unitType": "Siege",
+    "uniqueTo": "Ryuji's Haven",
+    "strength": 70,
+    "rangedStrength": 55,
+    "movement": 2,
+    "cost": 300,
+    "requiredTech": "Dynamite",
+    "upgradesTo": "Rocket Artillery",
+    "uniques": [
+      "Deals double damage to cities",
+      "+50% Strength when defending",
+      "Cannot be captured when defeated"
     ]
   }
 ]
