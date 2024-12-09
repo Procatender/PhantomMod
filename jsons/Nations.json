@@ -5,7 +5,7 @@
     "adjective": ["Phantom"],
     "startBias": ["Coast", "Hills"],
     "preferredVictoryType": "Domination",
-    "favoredReligion": "Justice",
+    "favoredReligion": "Enhancer",
     "uniqueName": "Masks of Rebellion",
     "uniques": [
       "Units start with Stealth promotion",
@@ -38,7 +38,7 @@
     "adjective": ["Palace"],
     "startBias": ["Desert", "Plains"],
     "preferredVictoryType": "Domination",
-    "favoredReligion": "Greed",
+    "favoredReligion": "Enhancer",
     "uniqueName": "Bosses of Greed and Fear",
     "uniques": [
       "Can buy City-States allied for 5 turns",
