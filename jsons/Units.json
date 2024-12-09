@@ -23,7 +23,6 @@
     "movement": 2,
     "cost": 150,
     "requiredTech": "Machinery",
-    "upgradesTo": "Field Cannon",
     "uniques": [
       "+25% Strength when defending cities",
       "Ignores terrain movement penalties",
@@ -32,7 +31,7 @@
   },
   {
     "name": "Ethereal Guardian",
-    "unitType": "Special",
+    "unitType": "Melee",
     "uniqueTo": "Morgana's Empire",
     "strength": 50,
     "movement": 2,
