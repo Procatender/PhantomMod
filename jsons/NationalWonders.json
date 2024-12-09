@@ -7,6 +7,7 @@
     "production": 4,
     "requiredTech": "Drama and Poetry",
     "requiredBuildings": ["Metaverse Gate"],
+    "isNationalWonder": true,
     "uniques": [
       "+15% Strength for all units",
       "Grants a free Social Policy",
@@ -21,6 +22,7 @@
     "culture": 4,
     "requiredTech": "Printing Press",
     "requiredBuildings": ["Hall of Excess"],
+    "isNationalWonder": true,
     "uniques": [
       "Provides +2 Happiness for every Luxury Resource in the empire",
       "Converts Culture in this city into Gold at 50% rate",
@@ -35,6 +37,7 @@
     "culture": 5,
     "requiredTech": "Banking",
     "requiredBuildings": ["Treasury of Avarice"],
+    "isNationalWonder": true,
     "uniques": [
       "Provides +1 Gold for every Luxury Resource in the empire",
       "+50% Gold from trade routes originating in the capital",
@@ -48,6 +51,7 @@
     "culture": 5,
     "requiredTech": "Construction",
     "requiredBuildings": ["Warrior's Arena"],
+    "isNationalWonder": true,
     "uniques": [
       "+2 Culture for every city captured",
       "Provides Honor policy bonuses to all cities",
@@ -61,6 +65,7 @@
     "production": 8,
     "requiredTech": "Engineering",
     "requiredBuildings": ["Forge of Wrath"],
+    "isNationalWonder": true,
     "uniques": [
       "+15% Strength for all units when fighting in enemy territory",
       "Provides +1 Gold for every city captured",
@@ -74,6 +79,7 @@
     "production": 10,
     "requiredTech": "Replaceable Parts",
     "requiredBuildings": ["Temple of Thunder"],
+    "isNationalWonder": true,
     "uniques": [
       "Provides +25% Strength for all units",
       "Provides +2 Production for every city captured",
@@ -87,6 +93,7 @@
     "culture": 8,
     "requiredTech": "Drama and Poetry",
     "requiredBuildings": ["Monument"],
+    "isNationalWonder": true,
     "uniques": [
       "+2 Culture for every city in the empire",
       "Provides +1 Happiness for every Wonder in the empire",
@@ -100,6 +107,7 @@
     "science": 10,
     "requiredTech": "Printing Press",
     "requiredBuildings": ["Arcane Academy"],
+    "isNationalWonder": true,
     "uniques": [
       "+2 Science for every Wonder in the empire",
       "+10% Science when Happiness is positive",
