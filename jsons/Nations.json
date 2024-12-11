@@ -5,12 +5,13 @@
     "adjective": ["Phantom"],
     "startBias": ["Coast", "Hills"],
     "preferredVictoryType": "Domination",
+    "favoredReligion": "Justice",
     "uniqueName": "Masks of Rebellion",
     "uniques": [
-      "Units start with Stealth promotion",
-      "+15% Strength in enemy territory",
-      "Earn 50 Gold when killing an enemy unit",
-      "Spies operate 25% faster"
+      "Units start with the [Stealth] promotion",
+      "[+15]% Strength when fighting in enemy territory",
+      "Earn [50 Gold] per [Military] unit killed",
+      "Spies operate [+25]% faster"
     ],
     "startIntroPart1": "Welcome, Trickster, leader of the Phantom Thieves! You stand as the beacon of rebellion in a corrupt world...",
     "startIntroPart2": "Will your cunning and charisma build a world of justice, or will the chains of power drag you down?",
@@ -37,13 +38,14 @@
     "adjective": ["Palace"],
     "startBias": ["Desert", "Plains"],
     "preferredVictoryType": "Domination",
+    "favoredReligion": "Greed",
     "uniqueName": "Bosses of Greed and Fear",
     "uniques": [
-      "Can buy City-States allied for 5 turns",
-      "+25% Gold from trade routes",
-      "+300% Science when researching military technologies",
-      "Negates penalties from negative Happiness",
-      "+15 Gold per era passed"
+      "Can buy City-States that have been allied for 5 turns",
+      "[+25% Gold] from [Trade Routes]",
+      "[+300% Science] when researching [Military] technologies",
+      "Negates all penalties from negative [Happiness]",
+      "Earn [+15 Gold] per [Era] passed"
     ],
     "startIntroPart1": "Welcome, corrupted ruler of the Palace Universe. Greed and fear are your tools to dominate the world...",
     "startIntroPart2": "Will you hoard wealth and power, or will the rebellion of the oppressed shatter your empire?",
@@ -72,11 +74,11 @@
     "preferredVictoryType": "Domination",
     "uniqueName": "Relentless Fury",
     "uniques": [
-      "Entire map revealed at game start",
-      "All nations and City-States start with -690 reputation",
-      "+300% Science when researching military technologies",
-      "+30% Strength against cities",
-      "+20% Production for land units"
+      "The map is fully revealed at the start of the game",
+      "All nations and City-States start with [-690] reputation",
+      "[+300% Science] when researching [Military] technologies",
+      "[+30% Strength] when attacking [Cities]",
+      "[+20% Production] for training [Land] units"
     ],
     "startIntroPart1": "Yo, I’m Ryuji. Strong, loud, and always ready for a fight! My Haven thrives on action and doesn’t wait around for anyone...",
     "startIntroPart2": "Will you stand beside me or get run over by the storm?",
@@ -105,12 +107,12 @@
     "preferredVictoryType": "Cultural",
     "uniqueName": "Guiding Paws of Progress",
     "uniques": [
-      "+33% Culture and Science when Happiness is positive",
-      "+20% Great Person Generation in the Capital",
-      "+20% Production when building Wonders",
-      "All cities receive a free Monument upon founding",
-      "-30% Strength for all units",
-      "+15% Strength when defending cities"
+      "[+33% Culture] and [+33% Science] when [Happiness] is positive",
+      "[+20% Great Person Generation] in the [Capital]",
+      "[+20% Production] when building [Wonders]",
+      "All cities start with a free [Monument]",
+      "[-30% Combat Strength] for all units",
+      "[+15% Strength] when defending [Cities]"
     ],
     "startIntroPart1": "Hey, I’m Morgana! Smart, charming, and way better at leading than anyone else! My empire is built on brains, not brawn...",
     "startIntroPart2": "Will you follow my lead to a brighter future, or will you stand in the way of progress?",
